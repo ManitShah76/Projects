@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Nunito&family=Oswald&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -7,14 +8,12 @@
 }
 
 .section_1{
-    height: 100vh;
     background-image: url(../Musicology/Images/HomePage.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .toolbar{
-    height: 100px;  
     background-color: #303030;
     display: flex;
 }
@@ -25,48 +24,56 @@
 }
 
 .nav_links{
+    width: 60%;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 400;
     font-family: "Oswald";
     padding: 38px;
-    padding-left: 290px;
+    padding-left: 100px;
+    margin-left: 100px;
     display: flex;
-    gap: 40px;  
+    gap: 30px; 
 }
 
 .nav_links>a{
     color: white;
     text-decoration: none;
+    padding-left: 32px;
 }
 
 .search{
     padding: 38px;
-    padding-left: 380px;
+    padding-left: 100px;
+    margin-left: 80px;
 }
 
 .title{
-    padding-top: 250px;
-    padding-left: 150px;
+    padding-top: 80px;
+    margin-top: 100px;
+    padding-left: 100px;
     font-size: 50px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Oswald";
 }
 
+.title>h1{
+    padding-top: 100px;
+}
+
 .text{
-    width: 48%;
-    height: 50px;
+    width: 50%;
+    padding-left: 100px;
     font-size: 20px;
     color: #ffffff;
     font-weight: 400;
-    padding-left: 150px;
     font-family: "Montserrat";
 }
 
 .button{
-    padding: 50px;
-    padding-left: 150px;
+    padding: 50px 100px;
+    padding-bottom: 65px;
 }
 
 input[type="submit"]{
@@ -83,7 +90,6 @@ input[type="submit"]:hover{
 }
 
 .section_2{
-    height: 120vh;
     background-image: url(../Musicology/Images/Background.png);
 }
 
@@ -98,16 +104,23 @@ input[type="submit"]:hover{
 }
 
 .text_2{
-    padding: 30px 350px;
-    font-size: 20px;
+    padding: 30px 100px;
+    margin: 0px 100px;
+    font-size: 23px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Montserrat";
     text-align: center;
 }
 
+.text_2>p{
+    padding: 0 100px;
+    margin: 0 100px;
+}
+
 .main_box{
     display: flex;
+    padding-bottom: 60px;
 }
 
 .box1_1{
@@ -143,7 +156,6 @@ input[type="submit"]:hover{
 }
 
 .section_3{
-    height: 110vh;
     background-color: #303030;
 }
 
@@ -155,7 +167,8 @@ input[type="submit"]:hover{
 }
 
 .image_2_1{
-    padding: 50px 130px;
+    padding: 50px 100px;
+    margin: 0 30px;
 }
 
 .name_2_2{
@@ -197,18 +210,12 @@ input[type="submit"]:hover{
 }
 
 .section_4{
-    height: 100vh;
     background-image: url(../Musicology/Images/Background.png);
     display: flex;
 }
 
 .box_2{
     padding: 100px;
-}
-
-.image_3{
-    width: 50%;
-    height: 70%;
 }
 
 .title_2{
@@ -222,8 +229,7 @@ input[type="submit"]:hover{
 }
 
 .text_3{
-    height: 50px;
-    font-size: 20px;
+    font-size: 28px;
     color: #ffffff;
     font-weight: 400;
     padding-top: 20px;
@@ -232,12 +238,12 @@ input[type="submit"]:hover{
 }
 
 .button_3{
-    padding: 100px;
+    padding: 50px;
     padding-left: 30px;
 }
 
 .button_3>input[type="submit"]{
-    width: 60%;
+    width: 50%;
     height: 50px;
     font-size: 20px;
     border-radius: 4px;
@@ -247,24 +253,24 @@ input[type="submit"]:hover{
 }
 
 .section_5{
-    height: 100vh;
     background-image: url(../Musicology/Images/Background.png);
     display: flex;
 }
 
 .section_6{
-    height: 100vh;
     background-color: #303030;
 }
 
-.main_box{
+.main_box_2{
     display: flex;
+    margin-left: 100px;
+    padding-bottom: 60px;
 }
 
 .box3_1{
-    width: 73.5%;
-    margin-left: 250px;
-    padding-bottom: 20px;
+    width: 90%;
+    margin: 20px 100px;
+    padding-bottom: 100px;
 }
 
 .name_1{
@@ -274,16 +280,22 @@ input[type="submit"]:hover{
     font-weight: 700;
     font-family: "Oswald";
     text-align: center;
-    padding-top: 130px;
+    padding-top: 100px;
 }
 
 .text_4{
-    padding: 30px 350px;
-    font-size: 20px;
+    padding: 30px 100px;
+    margin: 0px 100px;
+    font-size: 25px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Montserrat";
     text-align: center;
+}
+
+.text_4>p{
+    padding: 0px 100px;
+    margin: 20px 100px;
 }
 
 .name_3_2{
@@ -292,7 +304,8 @@ input[type="submit"]:hover{
     text-align: center;
     font-family: "Oswald";
     font-size: 40px;
-    padding-top: 120px;
+    padding-top: 100px;
+    padding-left: 50px;
 }
 
 .text_3_2{
@@ -301,22 +314,29 @@ input[type="submit"]:hover{
     font-family: "Montserrat";
     font-size: 30px;
     padding-top: 10px;
+    padding-left: 50px;
+
 }
 
 .section_7{
-    height: 100vh;
     background-image: url(../Musicology/Images/image6.png);
     background-repeat: no-repeat;
-    background-size: 1550px 750px;
+    background-size: 1550px 800px;
 }
 
 .text_5{
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
-    font-family: "Oswald";
+    font-family: "Nunito";
     font-size: 30px;
-    padding: 320px 350px 0px 350px;
+    padding: 100px 100px 0 100px;
+    margin: 0 100px;
+}
+
+.text_5>p{
+    padding: 100px 100px 0 100px;
+    margin: 100px 100px 50px 100px;
 }
 
 .name_4{
@@ -325,21 +345,24 @@ input[type="submit"]:hover{
     text-align: center;
     font-family: "Oswald";
     font-size: 40px;
-    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .section_8{
-    height: 80vh;
     background-image: url(../Musicology/Images/Background.png);
 }
 
 .form{
     display: flex;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    margin-left: 100px;
 }
 
 .email{
     padding-top: 50px;
-    padding-left: 370px;
+    padding-left: 100px;
+    margin-left: 100px;
 }
 
 .button_4{
@@ -364,13 +387,12 @@ input[type="email"]{
 }
 
 .section_9{
-    height: 45vh;
     background-color: #303030;
     display: flex;
 }
 
 .box_4{
-    width: 700px;
+    width: 550px;
 }
 
 .last_title{
@@ -386,10 +408,9 @@ input[type="email"]{
 
 .text_6{
     font-size: 20px;
-    padding: 20px;
     color: #ffffff;
     font-weight: 400;
-    padding-left: 50px;
+    padding: 20px 100px 20px 50px;
     font-family: "Montserrat";
 }
 
@@ -408,6 +429,7 @@ i{
 .box_5{
     width: 800px;
     display: flex;
+    padding-left: 100px;
 }
 
 ul{
@@ -420,18 +442,15 @@ li>a{
 }
 
 .list{
-    padding: 20px;
-    padding-top: 60px;
-    padding-left: 150px;
+    padding: 60px 0 0 100px;
+    margin: 0 0 0 100px;
     line-height: 40px;
     font-size: 18px;
     color: #ffffff;
 }
 
 .list2,.list3{
-    padding: 20px;
-    padding-top: 60px;
-    padding-left: 100px;
+    padding: 60px 0 0 100px;
     line-height: 40px;
     font-size: 18px;
     color: #ffffff;
