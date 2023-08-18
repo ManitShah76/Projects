@@ -43,9 +43,9 @@
 .card{
     margin: 100px 58px;
     padding: 20px 0px 50px;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
     border: 1px solid #fbf8f9;
+    box-shadow:2px 2px 20px white inset;
     border-radius: 5px;
     color: #fcfafb;
 }
