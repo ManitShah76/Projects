@@ -96,7 +96,7 @@ input[type="submit"]:hover{
 }
 
 .section_2{
-    background-image: url(../Images/Background.png);
+    background-image: url(Images/Background.png);
 }
 
 .name{
@@ -166,7 +166,7 @@ input[type="submit"]:hover{
 }
 
 .image_2{
-    background-image: url(../Images/Background.png);
+    background-image: url(Images/Background.png);
     width: 100%;
     display: flex;
     gap: 100px;
@@ -178,7 +178,7 @@ input[type="submit"]:hover{
 }
 
 .name_2_2{
-    background-image: url(../Images/Background.png);
+    background-image: url(Images/Background.png);
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
@@ -188,7 +188,7 @@ input[type="submit"]:hover{
 }
 
 .text_2_2{
-    background-image: url(../Images/Background.png);
+    background-image: url(Images/Background.png);
     color: #ffffff;
     text-align: center;
     font-family: "Montserrat";
@@ -199,7 +199,7 @@ input[type="submit"]:hover{
 .button_2{
     padding: 15px;
     padding-left: 20px;
-    background-image: url(../Images/Background.png);
+    background-image: url(Images/Background.png);
 }
 
 .button_2>[type="submit"]{
@@ -216,7 +216,7 @@ input[type="submit"]:hover{
 }
 
 .section_4{
-    background-image: url(../Images/Background.png);
+    background-image: url(Images/Background.png);
     display: flex;
 }
 
@@ -259,7 +259,7 @@ input[type="submit"]:hover{
 }
 
 .section_5{
-    background-image: url(../Images/Background.png);
+    background-image: url(Images/Background.png);
     display: flex;
 }
 
@@ -324,7 +324,7 @@ input[type="submit"]:hover{
 }
 
 .section_7{
-    background-image: url(../Images/image6.png);
+    background-image: url(Images/image6.png);
     background-repeat: no-repeat;
     background-size: 1550px 800px;
 }
@@ -354,7 +354,7 @@ input[type="submit"]:hover{
 }
 
 .section_8{
-    background-image: url(../Images/Background.png);
+    background-image: url(Images/Background.png);
 }
 
 .form{
