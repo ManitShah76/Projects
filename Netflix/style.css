@@ -1,204 +1,472 @@
-/* *{
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Fira+Sans:wght@300;400&family=Montserrat:wght@100&display=swap');
+
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-#header{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Images/background.jpg)no-repeat center center/cover;
-    padding-bottom: 96px;
+
+.main-div {
+    background-image: url(image/bgimage.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.navbar{
+
+.netflix {
     display: flex;
 }
-.logo{
-    width: 950px;
-    height: 40px;
-    margin: 20px 100px;
-}
-img{
-    width: 200px;
-    margin-left: 100px;
-}
-.lang{
+
+.netflix img {
     display: flex;
-    border-radius: 5px;
-    height: 30px;
-    margin-top: 40px;
+    padding-left: 50px;
+}
+
+.language {
+    height: 50px;
+    margin-top: 27px;
+    margin-left: 60%;
+    border-radius: 10px;
+    color: inherit;
+    line-height: 1.25rem;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: transparent;
+    color: white;
+}
+
+.sign-in {
+    border: 1px solid transparent;
+    margin: 30px;
+    height: 50px;
+    margin-top: 27px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font: inherit;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.heading h1 {
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15%;
+    font-size: 50px;
+}
+
+.heading p {
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.email {
+    margin-top: 80px;
+    margin-left: 30%;
+    height: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    background: transparent;
+    width: 28%;
+    /* background: #848080; */
+    color: beige;
     border: 1px solid white;
 }
-.icon{
-    width: 40px;
-    height: 30px;
-    background: transparent;
-}
-.icon i{
-    padding: 5px 0px 0px 13px;
+
+.get {
+    height: 50px;
+    width: 180px;
+    margin: 30px;
+    margin-top: 27px;
+    margin-left: 5px;
     font-size: 20px;
-    color: white;
-    border: none;
-}
-select{
-    width: 80px;
-    height: 30px;
-    font-size: 15px;
-    background: transparent;
-    color: white;
-    border: none;
-}
-button{
-    padding: 6px 12px ;
-    margin: 40px 20px;
-    font-size: 15px;
+    border: 1px solid transparent;
+    border-radius: 10px;
     background-color: red;
     color: white;
-    border: none;
-    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.text{
-    text-align: center;
+
+/* -------------------------------------2 Page------------------------------ */
+
+.main-div-1 {
+    background-color: #000;
+    height: 80vh;
 }
-.text h1{
-    color: white;
-    font-size: 48px;
-    padding-top: 100px;
-    margin-top: 100px;
-}
-.text h2{
-    color: white;
-    font-size: 24px;
-    padding-top: 15px;
-}
-.text h3{
-    color: white;
-    font-size: 18px;
-    padding-top: 15px;
-}
-.form{
+
+.container {
     display: flex;
-    gap: 20px;
-    padding-bottom: 100px;
-    padding-left: 100px;
-    margin-left: 100px;
 }
 
-.email{
-    padding-top: 50px;
-    padding-left: 100px;
-    margin-left: 100px;
-}
-
-.button{
-    padding-top: 50px;
-}
-
-input[type="email"]{
-    width: 430px;
-    height: 50px;
-    font-size: 20px;
-    background: transparent;
+.text-1 h1 {
     color: white;
-    backdrop-filter: blur(10px);
-    border-radius: 5px;
-    padding-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 150px;
+    font-size: 55px;
+    margin-top: 25%;
 }
 
-input[type="submit"]{
-    width: 180px;
-    height: 50px;
-    font-size: 20px;
-    font-weight: 500;
+.text-1 p {
     color: white;
-    background-color: rgb(229, 9, 20);
-    border: none;
-    border-radius: 5px;
-} */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 150px;
+    padding-top: 20px;
+    font-size: 28px;
+    line-height: 30px;
+}
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: black;
-    color: white;
-}
-#header{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/header-image.png)no-repeat center center/cover;
-    padding: 10px 8%;
+.image {
+    padding-top: 120px;
+    padding-left: 70px;
     position: relative;
-    height: 100vh;
 }
-.navbar{
+
+
+.viedo-tag {
+    position: absolute;
+    margin-left: -391px;
+    margin-top: 70px;
+    z-index: 0;
+    border: 0 solid transparent;
+}
+
+/* -------------------------3 Page---------------------------- */
+
+.main-div-2 {
+    background-color: #000;
+    height: 80vh;
+}
+
+.container-1 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0px;
 }
-.logo{
-    width: 150px;
+
+.image1 {
+    padding-top: 50px;
+    padding-left: 180px;
+
+}
+
+.text-2 h1 {
+    padding-top: 150px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 25px;
+}
+
+.text-2 p {
+    padding-top: 20px;
+    padding-left: 25px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.text00 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+    padding-left: 10px;
+
+}
+
+.text11 {
+    margin-top: 25px;
+    color: blue;
+    cursor: pointer;
+    margin-left: -100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.text {
+    display: flex;
+}
+
+.stimage {
+    margin-left: 315px;
     cursor: pointer;
 }
-nav button{
-    border: 0;
-    outline: 0;
-    background: Red;
-    color: white;
-    padding: 10px 20px;
-    font-size: 12px;
-    border-radius: 5px;
-    margin-left: 10px;
+
+.smallicon {
+    margin-top: 25px;
+    padding-left: 15px;
+    width: 55px;
+    height: 43px;
 }
-select{
-    background: transparent;
-    color: white;
-    padding: 7px 10px;
-    border-radius: 5px;
+
+/* -------------------------------4 Page--------------------------- */
+.main-div-3 {
+    background-color: #000;
+    height: 70vh;
 }
-.header-content{
+
+.container-3 {
+    display: flex;
+}
+
+.text-4 {
+    color: white;
+}
+
+.text-10 h1 {
+    color: white;
+    padding-top: 150px;
+    padding-left: 150px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text-10 p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.play {
+    width: 50px;
+}
+
+.photo-1 {
+    position: relative;
+    z-index: 1;
+}
+
+.viedo-tag-1 {
     position: absolute;
-    top: 300px;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
+    margin-left: -365px;
+    margin-top: 35px;
+    width: 275px;
+    border: 0 solid transparent;
+}
+
+/* --------------------------------- 5 Page ------------------------------------ */
+
+.main-div-5 {
+    background-color: #000;
+    height: 70vh;
+}
+
+.container-5 {
+    display: flex;
+}
+
+.text-5 {
+    padding-top: 150px;
+}
+
+.text-5 h1 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.text-5 p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.image-5 {
+    margin-left: 200px;
     margin-top: 100px;
 }
-.header-content h1{
-    font-size: 45px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-.header-content h3{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-.header-content p{
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-.form{
+
+/* ------------------------- 6 Page ----------------------------- */
+
+.question {
+    width: 100%;
+    padding-top: 50PX;
+    min-height: 200px;
+    background-color: #000;
     display: flex;
-    gap: 20px;
-    padding-left: 100px;
-    margin-left: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    border-bottom: 8px solid #222;
+    padding-bottom: 50px;
 }
 
-input[type="email"]{
-    width: 300px;
-    height: 50px;
+.question h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.collapsible {
+    background-color: #303030;
+    color: white;
+    cursor: pointer;
+    padding: 18px 30px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 22px;
+    font-weight: 200;
+    height: 70px;
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 60%;
+}
+
+.collapsible:after {
+    content: '\002B';
+    /* \002B is the Plus symbol to crate a icon  */
+    color: white;
+    float: right;
+    font-family: times new roman;
+    font-size: 1.5em;
+    transform: scale(1.2, 1.2);
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\00D7";
+    /* \00D7 is the close symbol to crate a icon  */
+}
+
+.content {
+    width: 60%;
+    text-align: left;
+    padding: 0 30px;
+    margin-left: 5%;
+    max-height: 0;
+    height: auto;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #303030;
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.content p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.space {
+    margin-top: 50px;
+}
+
+h5 {
+    color: #757575;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-left: 20.5%;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer h5:hover {
+    text-decoration: underline;
+}
+
+.column p:hover {
+    text-decoration: underline;
+}
+
+.text-sub-sub {
+    color: white;
+    padding-left: 100px;
+    font-size: 30px;
+    padding-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container input {
+    width: 550px;
+    height: 45px;
+    font-weight: 700;
+    border-radius: 2px;
+    font-size: 15px;
+    margin-left: 200px;
     background: transparent;
     color: white;
-    backdrop-filter: blur(10px);
-    border-radius: 5px;
-    padding-left: 10px;
+    border: 1px solid white;
 }
 
-input[type="submit"]{
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
-    font-weight: 500;
-    color: white;
+.get-1 {
+    height: 45px;
+    margin-left: 20px;
+    width: 180px;
+    font-size: 18px;
+    border: 1px solid transparent;
+    border-radius: 10px;
     background-color: red;
-    border: none;
-    border-radius: 5px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ---------------------------- footer------------------------- */
+.footer {
+    background-color: #000;
+    height: 60vh;
+}
+
+.last-footer h1 {
+    color: white;
+    font-size: 20px;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.column p {
+    text-decoration: underline;
+    color: #757575;
+    font-size: 12px;
+    margin-top: 30px;
+    padding-left: 100px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+p:hover {
+    color: white;
+}
+
+.row {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 200px;
 }

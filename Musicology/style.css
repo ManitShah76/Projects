@@ -8,9 +8,13 @@
 }
 
 .section_1{
-    background-image: url(../Musicology/Images/HomePage.png);
+    background-image: url(Images/HomePage.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.section_1 img{
+    width: 100%;
 }
 
 .toolbar{
@@ -47,7 +51,9 @@
     padding-left: 100px;
     margin-left: 80px;
 }
-
+.nav_links1>a{
+    display: none;
+}
 .title{
     padding-top: 80px;
     margin-top: 100px;
@@ -90,7 +96,7 @@ input[type="submit"]:hover{
 }
 
 .section_2{
-    background-image: url(../Musicology/Images/Background.png);
+    background-image: url(../Images/Background.png);
 }
 
 .name{
@@ -160,7 +166,7 @@ input[type="submit"]:hover{
 }
 
 .image_2{
-    background-image: url(../Musicology/Images/Background.png);
+    background-image: url(../Images/Background.png);
     width: 100%;
     display: flex;
     gap: 100px;
@@ -172,7 +178,7 @@ input[type="submit"]:hover{
 }
 
 .name_2_2{
-    background-image: url(../Musicology/Images/Background.png);
+    background-image: url(../Images/Background.png);
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
@@ -182,7 +188,7 @@ input[type="submit"]:hover{
 }
 
 .text_2_2{
-    background-image: url(../Musicology/Images/Background.png);
+    background-image: url(../Images/Background.png);
     color: #ffffff;
     text-align: center;
     font-family: "Montserrat";
@@ -193,7 +199,7 @@ input[type="submit"]:hover{
 .button_2{
     padding: 15px;
     padding-left: 20px;
-    background-image: url(../Musicology/Images/Background.png);
+    background-image: url(../Images/Background.png);
 }
 
 .button_2>[type="submit"]{
@@ -210,7 +216,7 @@ input[type="submit"]:hover{
 }
 
 .section_4{
-    background-image: url(../Musicology/Images/Background.png);
+    background-image: url(../Images/Background.png);
     display: flex;
 }
 
@@ -253,7 +259,7 @@ input[type="submit"]:hover{
 }
 
 .section_5{
-    background-image: url(../Musicology/Images/Background.png);
+    background-image: url(../Images/Background.png);
     display: flex;
 }
 
@@ -315,11 +321,10 @@ input[type="submit"]:hover{
     font-size: 30px;
     padding-top: 10px;
     padding-left: 50px;
-
 }
 
 .section_7{
-    background-image: url(../Musicology/Images/image6.png);
+    background-image: url(../Images/image6.png);
     background-repeat: no-repeat;
     background-size: 1550px 800px;
 }
@@ -349,7 +354,7 @@ input[type="submit"]:hover{
 }
 
 .section_8{
-    background-image: url(../Musicology/Images/Background.png);
+    background-image: url(../Images/Background.png);
 }
 
 .form{
@@ -393,6 +398,7 @@ input[type="email"]{
 
 .box_4{
     width: 550px;
+    height: 390px;
 }
 
 .last_title{
