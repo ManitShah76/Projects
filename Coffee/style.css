@@ -33,6 +33,14 @@ li>a{
     font-family: "PT Serif";
 }
 
+.search{
+    display: none;
+}
+
+.nav_links>a{
+    display: none;
+}
+
 .banner{
     background: url(../Coffee/Images/HomePage.png)no-repeat center center/cover;
 }

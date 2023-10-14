@@ -8,7 +8,6 @@
 
 .main-div {
     background-image: url(image/bgimage.jpg);
-    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -71,8 +70,9 @@
 }
 
 .email {
-    margin-top: 80px;
+    margin-top: 100px;
     margin-left: 30%;
+    margin-bottom: 100px;
     height: 50px;
     font-weight: 700;
     font-size: 15px;
@@ -87,8 +87,9 @@
     height: 50px;
     width: 180px;
     margin: 30px;
-    margin-top: 27px;
+    margin-top: 80px;
     margin-left: 5px;
+    margin-bottom: 100px;
     font-size: 20px;
     border: 1px solid transparent;
     border-radius: 10px;
@@ -101,7 +102,6 @@
 
 .main-div-1 {
     background-color: #000;
-    height: 80vh;
 }
 
 .container {
@@ -111,7 +111,7 @@
 .text-1 h1 {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 150px;
+    margin-left: 100px;
     font-size: 55px;
     margin-top: 25%;
 }
@@ -119,23 +119,25 @@
 .text-1 p {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 150px;
+    margin-left: 100px;
     padding-top: 20px;
     font-size: 28px;
     line-height: 30px;
 }
 
 .image {
-    padding-top: 120px;
+    padding-top: 100px;
     padding-left: 70px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
     position: relative;
 }
 
 
 .viedo-tag {
     position: absolute;
-    margin-left: -391px;
-    margin-top: 70px;
+    right: 63px;
+    top: 170px; 
     z-index: 0;
     border: 0 solid transparent;
 }
@@ -144,7 +146,6 @@
 
 .main-div-2 {
     background-color: #000;
-    height: 80vh;
 }
 
 .container-1 {
@@ -210,7 +211,6 @@
 /* -------------------------------4 Page--------------------------- */
 .main-div-3 {
     background-color: #000;
-    height: 70vh;
 }
 
 .container-3 {
@@ -223,8 +223,8 @@
 
 .text-10 h1 {
     color: white;
-    padding-top: 150px;
-    padding-left: 150px;
+    padding-top: 100px;
+    padding-left: 100px;
     font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -233,7 +233,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     font-size: 25px;
-    padding-left: 150px;
+    padding-left: 100px;
     padding-top: 20px;
 }
 
@@ -243,14 +243,14 @@
 
 .photo-1 {
     position: relative;
-    z-index: 1;
 }
 
 .viedo-tag-1 {
     position: absolute;
-    margin-left: -365px;
-    margin-top: 35px;
-    width: 275px;
+    right: 90px;
+    top: 136.6px;
+    width: 278px;
+    z-index: 1;
     border: 0 solid transparent;
 }
 
@@ -258,7 +258,6 @@
 
 .main-div-5 {
     background-color: #000;
-    height: 70vh;
 }
 
 .container-5 {
@@ -437,7 +436,6 @@ h5 {
 /* ---------------------------- footer------------------------- */
 .footer {
     background-color: #000;
-    height: 60vh;
 }
 
 .last-footer h1 {

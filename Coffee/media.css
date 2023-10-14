@@ -2,7 +2,41 @@
 // No media query for `xs` since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {  
+@media (max-width: 576px) { 
+    .navbar li>a{
+        display: none;
+        position: relative;
+    }
+    .search{
+        position: absolute;
+        display: block;
+        top: 40px;
+        right: 20px;
+    }
+    .nav_links{
+        width: 100%;
+        position: absolute;
+        top: 90px;
+        left: 0px;
+        background: url(../Coffee/Images/Design.png);
+        background-color: #b13941;
+        font-size: 25px;
+        text-align: center;
+        font-weight: 400;
+        font-family: "PT Serif";
+        display: flex;
+        flex-direction: column;
+        gap: 10px; 
+    }
+    
+    .nav_links>a{
+        color: white;
+        text-decoration: none;
+        padding-left: 32px;
+    }
+    .search:hover + .nav_links>a{
+        display: block;
+    } 
     .banner{
         background: url(../Coffee/Images/HomePage.png)no-repeat center center/cover;
         width: 576px;
@@ -101,6 +135,9 @@
     .section5 .box1{
         text-align: center;
     }
+    .image3{
+        padding: 50px 35px;
+    }
     .text6{
         padding: 0 0 0 100px;
     }
@@ -136,7 +173,7 @@
     }
     .message{
         width: 500px;
-        height: 202px;
+        height: 100px;
     }
     .section6 button{
         margin: 0px 50px 30px;
